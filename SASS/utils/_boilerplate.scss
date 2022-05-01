@@ -1,0 +1,21 @@
+@use 'colors' as *;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+body {
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: $light-grayish-blue;
+    color: $white;
+    max-height: 100%;
+}
+
+p{
+    line-height: 1.2;
+}
